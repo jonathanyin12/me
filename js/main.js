@@ -205,7 +205,7 @@
 
 	setTimeout(function(){
 		document.getElementById('cv').classList.remove('hide');
-	}, 15000);
+	}, 15500);
 
 
 
