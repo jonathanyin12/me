@@ -16,14 +16,6 @@
   display: none;
  }
  
-.text {
-  top: 45%;
-  font-family: "Helvetica";
-  font-weight: 600;
-  font-size: 300%;
-  position: "relative";
- }
-
 .animation {
   color: #000;
   font-family: "Helvetica";
