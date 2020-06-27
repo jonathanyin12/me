@@ -23,16 +23,18 @@
   position: "relative";
   font-size: 300%;
   margin-left: 25%;
+  top: 40%;
   z-index: 10001;}
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 992px) {
     .animation {
       margin-left: 0%;
+      top: 35%;
       font-size: 250% } }
 
 .animation2 {
   left: 25%;
 }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 992px) {
     .animation2 {
       left: 0%;
 } }

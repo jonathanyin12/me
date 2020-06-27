@@ -8,7 +8,7 @@ export default class Introduction extends Component {
       <div style={{marginBottom: "5em"}}>
         <section  style={{height: '100vh', position: 'relative'}}  data-section="introduction">
           <ParticlesContainer/>
-          <span className="animation " style={{position: "relative", top: "40%"}}>
+          <span className="animation" style={{position: "relative"}}>
             <Typed 
                 style={{color: "#000", }}
                 typeSpeed={50}
