@@ -22,9 +22,22 @@
   font-weight: 600;
   position: "relative";
   font-size: 300%;
-  margin: 0 0 30px 0;
-  /* top: 45%; */
-  z-index: 10001}
+  margin-left: 25%;
+  z-index: 10001;}
+  @media screen and (max-width: 768px) {
+    .animation {
+      margin-left: 0%;
+      font-size: 250% } }
+
+.animation2 {
+  left: 25%;
+}
+  @media screen and (max-width: 768px) {
+    .animation2 {
+      left: 0%;
+} }
+
+
 
 body {
   font-family: "Quicksand", Arial, sans-serif;
