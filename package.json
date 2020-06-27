@@ -2,7 +2,7 @@
   "name": "JonathanYin_Website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jonathanyin12.github.io/me",
+  "homepage": "https://jonathanyin.me",
   "dependencies": {
     "gh-pages": "^2.2.0",
     "react": "^16.8.3",
