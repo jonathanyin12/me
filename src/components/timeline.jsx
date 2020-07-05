@@ -15,7 +15,19 @@ export default class Timeline extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-6">
+                        <i className="icon-code" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2 ><b>Beagle Learning </b><span>July 2020 - Present</span>
+                        <div style={{paddingTop: "10px", fontSize: "15px"}}> <i>Software Engineering Intern</i></div></h2>                        
+                        <p><i>Description coming soon!</i></p>
+                      </div>
+                    </div>
+                  </article>
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInRight">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-6">
                         <i className="icon-lab2" />
