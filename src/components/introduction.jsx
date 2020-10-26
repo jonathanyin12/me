@@ -33,9 +33,9 @@ export default class Introduction extends Component {
                 }}
                   id="cv"
                   className="btn btn-primary btn-learn animation2 hide " 
-                  href="files/Jonathan_Yin_CV.pdf" 
+                  href="files/Jonathan_Yin_Resume.pdf" 
                   target="_blank" 
-                  rel="noopener noreferrer">View CV <i className="icon-download4" /></a>
+                  rel="noopener noreferrer">View Resumé <i className="icon-download4" /></a>
           </span>
         </section>
       </div>

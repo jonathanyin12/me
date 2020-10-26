@@ -30,10 +30,24 @@ export default class About extends Component {
                           <p> <b style={{fontWeight:"700", fontSize: '15px'}}>Academics:</b>                        
                             <div className="row" style={{paddingRight: "40px"}}>
                                 <ul style={{listStyleType:"circle;"}}>
-                                <li> Incoming freshman; prospective computer science, statistics/data science major</li>
+                                <li> First-year student; prospective computer science, statistics/data science major</li>
+                                <li> Courses: Data Structures and Programming Techniques (CPSC 223), Proofs, Vector Calculus, and Linear Algebra I (MATH 230), The Rhetoric of Revolution (ENGL 114), Intermediate Spanish II (SPAN 140) </li>
+
                                 </ul>
-                              </div>
-                            </p>
+                            </div>
+                          </p>
+                          <p> <b style={{fontWeight:"700", fontSize: '15px'}}>Activities:</b>                        
+                          <div className="row" style={{paddingRight: "40px"}}>
+                              <ul>
+                                   <li style={{marginBottom: "0.5em"}}> YHack Logistics Team</li>
+                                <li style={{marginBottom: "0.5em"}}> Yale Machine Learning Advanced Study Group</li>
+                                <li style={{marginBottom: "0.5em"}}> Yale Computer Society Development Team</li>
+                                {/* <li style={{marginBottom: "1em"}}> <i style={{fontWeight:"400"}}>YHack Logistics Team</i></li>
+                                <li style={{marginBottom: "1em"}}> <i style={{fontWeight:"400"}}>Yale Machine Learning Advanced Study Group</i></li>
+                                <li style={{marginBottom: "1em"}}> <i style={{fontWeight:"400"}}>Yale Computer Society Development Team</i></li> */}
+                              </ul>
+                            </div>
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -59,12 +73,14 @@ export default class About extends Component {
                           <p> <b style={{fontWeight:"700", fontSize: '15px'}}>Activities:</b>                        
                           <div className="row" style={{paddingRight: "40px"}}>
                               <ul >
-                                <li style={{marginBottom: "1em"}}> <i style={{fontWeight:"400"}}>Science Olympiad Team (Sept 2016 - Jun 2020)</i> – As captain, I’m responsible for teaching new members, writing tests for team selection, choosing the teams, and planning team events. 
-                                  We've won the MIT, Harvard, Brown, and Yale invitationals, and also placed 9th in the nation for the past two years.</li>
+                                <li style={{marginBottom: "1em"}}> <i style={{fontWeight:"400"}}>Science Olympiad Team (Sept 2016 - Jun 2020)</i> – As captain, I was responsible for teaching new members, writing tests for team selection, choosing the teams, and planning team events. 
+                                  We've won the MIT, Harvard, Brown, and Yale invitationals, and also placed 9th in the nation two years in a row.</li>
+                                <li style={{marginBottom: "1em"}}> <i style={{fontWeight:"400"}}>MAHacks V (Jun. 2019 - Nov. 2019)</i> –As Organizer of Venue and logistics, I was responsible for finding a venue, organizing our budget, raising money through sponsorships, recruiting mentors, and planning workshops. 
+                          In total, we raised over $7,500 and reached nearly 100 attendees. </li>
+
+                                <li style={{marginBottom: "1em"}}> <i style={{fontWeight:"400"}}>Academic Support Center (Sept 2018 - Jan 2020)</i> – As a peer tutor, I assisted students with a variety of academic subjects spanning from geometry to biology. On a typical day, I work with them through challenging assignments, help unpack confusing concepts, or review material before an exam. </li>
                                 
-                                <li style={{marginBottom: "1em"}}> <i style={{fontWeight:"400"}}>Academic Support Center (Sept 2018 - Jan 2020)</i> – As a peer tutor, I assist students with a variety of academic subjects spanning from geometry to biology. On a typical day, I work with them through challenging assignments, help unpack confusing concepts, or review material before an exam. </li>
-                                
-                                <li style={{marginBottom: "1em"}}> <i style={{fontWeight:"400"}}>Middle School Math Club (Sept 2015 - Jan 2019)</i> – As a teaching assistant, I often introduce new concepts and work directly with students to help them grapple with difficult problems. When presenting a solution, I offer multiple different approaches such that students can understand intuitively. </li>
+                                <li style={{marginBottom: "1em"}}> <i style={{fontWeight:"400"}}>Middle School Math Club (Sept 2015 - Jan 2019)</i> – As a teaching assistant, I introduced new concepts and worked directly with students to help them grapple with difficult problems. When presenting a solution, I offered multiple different approaches such that students can understand intuitively. </li>
                               </ul>
                             </div>
                           </p>

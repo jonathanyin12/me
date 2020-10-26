@@ -31,7 +31,7 @@ export default class Skills extends Component {
                 </span>
                 <div className="desc">
                     <h3>Languages/Tools</h3>
-                    <p>Python, Java, Git, Bash, LaTeX</p>
+                    <p>Python, Java, C, HTML, CSS, Git, Bash</p>
                 </div>
                 </div>
             </div>
@@ -41,8 +41,8 @@ export default class Skills extends Component {
                     <i className="icon-data" />
                 </span>
                 <div className="desc">
-                    <h3>Libraries</h3>
-                    <p>Tensorflow, Keras, NumPy, Pandas, Matplotlib, Seaborn</p>
+                    <h3>Libraries/Frameworks</h3>
+                    <p>React, Tensorflow, Keras, NumPy, Pandas, Matplotlib, Seaborn</p>
                 </div>
                 </div>
             </div>
