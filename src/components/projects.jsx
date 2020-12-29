@@ -13,7 +13,7 @@ export default class Projects extends Component {
 						<h2 className="colorlib-heading animate-box">Projects</h2>
 					</div>
 				</div>
-                <div className="row" style={{display: "flex", justifyContent: "center"}}>
+                <div className="row">
                     <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
 						<div className="project" style={{backgroundImage: 'url(images/Model_architecture.png)'}}>
 							<div className="desc color-5">
@@ -41,7 +41,7 @@ export default class Projects extends Component {
 						</div>
 					</div>
 				</div>
-				<div className="row" style={{display: "flex", justifyContent: "center"}}>
+				<div className="row">
 					<div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
 						<div className="project" style={{backgroundImage: 'url(images/PokemonGAN.gif)'}}>
 							<div className="desc color-5">
