@@ -23,15 +23,15 @@ export default class Timeline extends Component {
                       <div className="timeline-label">
                         <h2 ><b>Broad Institute of MIT and Harvard–Regev Lab </b><span>Jan. 2019 - Present</span>
                         <div style={{paddingTop: "10px", fontSize: "15px"}}> <i>Computational Biology Researcher (MIT PRIMES)</i></div></h2>                        
-                        <p><a href="https://math.mit.edu/research/highschool/primes/program.php" target="_blank">MIT PRIMES </a>
-                          is a research program with admission based on entrance problem sets, personal statements, and letters of recommendation. With guidance from my mentor Dr. Hattie Chung, 
-                          I researched computational techniques to develop more accurate chemical representations for applications in drug design, drug discovery, and property prediction. 
-                          Combining multi-view representation learning with variational autoencoders, we developed a novel unsupervised deep learning architecture to improve latent molecular representations.
-                          I presented at the annual fall and spring PRIMES Conferences, and we recently submitted our work to the 2020 NeurIPS workshop, Learning Meaningful Representations of Life 
-
-                    
-                          (<a href="https://drive.google.com/file/d/1mXBgwT7DheUm0r7hF9lkXEVWNxnMwLxJ/view" target="_blank">extended abstract</a>; 
-                          <a href="https://docs.google.com/presentation/d/11P4vmcOIl_H6CpaIJJEi8Qd81-DzZ3sP5x3iuAbdRMA/edit?usp=sharing"target="_blank"> slides</a>).</p>
+                        <p>  Over the past two years, my work has broadly focused on improving GPCR binding predictions. With support and guidance from my mentor Dr. Hattie Chung, I specifically researched techniques involving compressed sensing, Bayesian methods, and machine learning.
+                        Throughout this process, I've also parsed, visualized, and analyzed various data e.g. receptor-ligand binding affinities and RNA-sequencing output.
+                         Most recently, I developed a novel deep learning architecture to create more accurate latent molecular representations by combining multi-view representation learning with variational autoencoders.
+                         </p>
+                         <p> 
+                          This past December, we submitted an extended abstract to the 2020 NeurIPS workshop, Learning Meaningful Representations of Life, where we were accepted and invited to present our research               
+                          (<a href="https://drive.google.com/file/d/1mXBgwT7DheUm0r7hF9lkXEVWNxnMwLxJ/preview" target="_blank">paper</a>; 
+                          <a href="https://slideslive.com/38942737" target="_blank"> talk</a>).
+                          </p>
                       </div>
                     </div>
                 </article>

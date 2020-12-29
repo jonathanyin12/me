@@ -19,7 +19,7 @@ export default class About extends Component {
                     <div className="panel panel-default">
                       <div className="panel-heading" role="tab" id="headingOne">
                         <h4 className="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Bachelor Degree of Computer Science
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">B.S. in Computer Science and Statistics & Data Science
                           <br/>
                           <i style={{fontSize: '11px'}}>Yale University '24</i>
                           </a>
@@ -30,8 +30,8 @@ export default class About extends Component {
                           <p> <b style={{fontWeight:"700", fontSize: '15px'}}>Academics:</b>                        
                             <div className="row" style={{paddingRight: "40px"}}>
                                 <ul style={{listStyleType:"circle;"}}>
-                                <li> First-year student; prospective computer science, statistics/data science major</li>
-                                <li> Courses: Data Structures and Programming Techniques (CPSC 223), Proofs, Vector Calculus, and Linear Algebra I (MATH 230), The Rhetoric of Revolution (ENGL 114), Intermediate Spanish II (SPAN 140) </li>
+                                <li> Intended double major in Computer Science and Statistics & Data Science</li>
+                                <li> Revelant coursework: Artificial Intelligence (CPSC 470), Systems Programming and Computer Organization (CPSC 323), Data Structures and Programming Techniques (CPSC 223), Vector Calculus and Linear Algebra (MATH 230/231)</li>
 
                                 </ul>
                             </div>

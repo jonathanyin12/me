@@ -6,16 +6,28 @@ export default class Projects extends Component {
     return (
       <div>
 		<section className="colorlib-work" data-section="projects">
-			
 			<div className="colorlib-narrow-content">
 				<div className="row">
-					<div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+					<div className="col-md-5 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
 						<span className="heading-meta">My Work</span>
-						<h2 className="colorlib-heading animate-box">Past Projects</h2>
+						<h2 className="colorlib-heading animate-box">Projects</h2>
 					</div>
 				</div>
-				<div className="row">
-					<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                <div className="row" style={{display: "flex", justifyContent: "center"}}>
+                    <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
+						<div className="project" style={{backgroundImage: 'url(images/Model_architecture.png)'}}>
+							<div className="desc color-5">
+								<div className="con">
+									<h3><a href="https://github.com/jonathanyin12/multiview-chemvae" target="_blank">Multi-view Chemical VAE</a></h3>
+									<span>A novel unsupervised deep learning architecture that combines multi-view representation learning with VAEs to improve latent molecular representations.</span>
+									<p className="icon">
+										<span><a href="https://github.com/jonathanyin12/multiview-chemvae" target="_blank"><i className="icon-link2" /></a></span>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 						<div className="project" style={{backgroundImage: 'url(images/Food.AI_demo.gif)'}}>
 							<div className="desc color-6"> 
 								<div className="con">
@@ -28,7 +40,9 @@ export default class Projects extends Component {
 							</div>
 						</div>
 					</div>
-					<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
+				</div>
+				<div className="row" style={{display: "flex", justifyContent: "center"}}>
+					<div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
 						<div className="project" style={{backgroundImage: 'url(images/PokemonGAN.gif)'}}>
 							<div className="desc color-5">
 								<div className="con">
@@ -41,7 +55,7 @@ export default class Projects extends Component {
 							</div>
 						</div>
 					</div>
-					<div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
+					<div className="col-md-6 animate-box" data-animate-effect="fadeInTop">
 						<div className="project" style={{backgroundImage: 'url(images/Flappy.ML_demo.gif)'}}>
 							<div className="desc color-4">
 								<div className="con">

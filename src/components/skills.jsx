@@ -8,7 +8,7 @@ export default class Skills extends Component {
         <div className="colorlib-narrow-content">
             <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span className="heading-meta">What I do?</span>
+                <span className="heading-meta">What I do</span>
                 <h2 className="colorlib-heading">Skills</h2>
             </div>
             </div>
@@ -20,7 +20,7 @@ export default class Skills extends Component {
                 </span>
                 <div className="desc">
                     <h3>Fields of interest </h3>
-                    <p>Deep learning, computer vision, computational biology</p>
+                    <p>Deep learning, software engineering, data science</p>
                 </div>
                 </div>
             </div>
@@ -31,7 +31,7 @@ export default class Skills extends Component {
                 </span>
                 <div className="desc">
                     <h3>Languages/Tools</h3>
-                    <p>Python, Java, C, HTML, CSS, Git, Bash</p>
+                    <p>Python, Java, C, HTML, CSS, Git, Bash, Jupyter</p>
                 </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@ export default class Skills extends Component {
                 </span>
                 <div className="desc">
                     <h3>Libraries/Frameworks</h3>
-                    <p>React, Tensorflow, Keras, NumPy, Pandas, Matplotlib, Seaborn</p>
+                    <p>React.js, TensorFlow, Keras, NumPy, Pandas, Matplotlib</p>
                 </div>
                 </div>
             </div>
