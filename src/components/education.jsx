@@ -30,7 +30,7 @@ export default class About extends Component {
                           <p> <b style={{fontWeight:"700", fontSize: '15px'}}>Academics:</b>                        
                             <div className="row" style={{paddingRight: "40px"}}>
                                 <ul style={{listStyleType:"circle;"}}>
-                                <li> Intended double major in Computer Science and Statistics & Data Science</li>
+                                <li> Double major in Computer Science and Statistics & Data Science, GPA: 4.00/4.00</li>
                                 <li> Revelant coursework: Artificial Intelligence (CPSC 470), Systems Programming and Computer Organization (CPSC 323), Data Structures and Programming Techniques (CPSC 223), Vector Calculus and Linear Algebra (MATH 230/231)</li>
 
                                 </ul>
@@ -65,7 +65,7 @@ export default class About extends Component {
                           <p> <b style={{fontWeight:"700", fontSize: '15px'}}>Academics:</b>                        
                           <div className="row" style={{paddingRight: "40px"}}>
                               <ul style={{listStyleType:"circle;"}}>
-                              <li> Unweighted GPA: 3.99/4.00; Weighted GPA: 4.78/5.00; Salutatorian</li>
+                              <li> Salutatorian; Unweighted GPA: 3.99/4.00; Weighted GPA: 4.78/5.00 </li>
                               <li> Senior Year Courseload: Calculus BC, Physics C, English Literature & Composition, Psychology, Spanish Language</li>
                               </ul>
                             </div>
