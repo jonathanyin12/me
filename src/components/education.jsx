@@ -31,7 +31,7 @@ export default class About extends Component {
                             <div className="row" style={{paddingRight: "40px"}}>
                                 <ul style={{listStyleType:"circle;"}}>
                                 <li> Double major in Computer Science and Statistics & Data Science, GPA: 4.00/4.00</li>
-                                <li> Revelant coursework: Artificial Intelligence (CPSC 470), Systems Programming and Computer Organization (CPSC 323), Data Structures and Programming Techniques (CPSC 223), Vector Calculus and Linear Algebra (MATH 230/231)</li>
+                                <li> Relevant coursework: Artificial Intelligence (CPSC 470), Systems Programming and Computer Organization (CPSC 323), Data Structures and Programming Techniques (CPSC 223), Vector Calculus and Linear Algebra (MATH 230/231)</li>
 
                                 </ul>
                             </div>
