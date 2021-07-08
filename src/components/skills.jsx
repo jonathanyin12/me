@@ -20,7 +20,7 @@ export default class Skills extends Component {
                 </span>
                 <div className="desc">
                     <h3>Fields of interest </h3>
-                    <p>Deep learning, software engineering, data science</p>
+                    <p>Deep learning, data science, full stack development</p>
                 </div>
                 </div>
             </div>

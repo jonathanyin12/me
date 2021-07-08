@@ -15,13 +15,25 @@ export default class Timeline extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
+                <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-6">
+                        <i className="icon-database" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2 ><b>Octant </b><span>June 2021 - Present</span>
+                        <div style={{paddingTop: "10px", fontSize: "15px"}}> <i>Software Engineering Intern</i></div></h2>                        
+                        <p>Description coming soon!</p>
+                      </div>
+                    </div>
+                </article>
                 <article className="timeline-entry animate-box" data-animate-effect="fadeInRight">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-6">
                         <i className="icon-lab2" />
                       </div>
                       <div className="timeline-label">
-                        <h2 ><b>Broad Institute of MIT and Harvard–Regev Lab </b><span>Jan. 2019 - Present</span>
+                        <h2 ><b>Broad Institute of MIT and Harvard–Regev Lab </b><span>Jan. 2019 - Dec. 2020</span>
                         <div style={{paddingTop: "10px", fontSize: "15px"}}> <i>Computational Biology Researcher (MIT PRIMES)</i></div></h2>                        
                         <p>  Over the past two years, my work has broadly focused on improving GPCR binding predictions. With support and guidance from my mentor Dr. Hattie Chung, I specifically researched techniques involving compressed sensing, Bayesian methods, and machine learning.
                         Throughout this process, I've also parsed, visualized, and analyzed various data e.g. receptor-ligand binding affinities and RNA-sequencing output.
